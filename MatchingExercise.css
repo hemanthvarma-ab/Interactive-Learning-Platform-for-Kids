@@ -1,0 +1,42 @@
+.matching-exercise {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 100px;
+    background-color: lightsalmon;
+    border-radius: 20px;
+  }
+  
+  .concepts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .concept {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .matches-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .match {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .match-placeholder {
+    border: 2px dashed #aaa;
+    padding: 6px;
+    border-radius: 5px;
+  }

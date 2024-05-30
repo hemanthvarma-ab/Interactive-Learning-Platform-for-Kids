@@ -1,0 +1,35 @@
+.drag-drop-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(105, 209, 218);
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 20px;
+  }
+  
+  .drag-items-container, .drop-areas-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .drag-item, .drop-area {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+  }
+  
+  .drag-item {
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  
+  .drop-area {
+    border-style: dashed;
+  }
